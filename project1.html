@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Netwerk Setup - SV System & Networks</title>
+  <!-- CSS reset voor consistentie tussen browsers -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- Bootstrap framework -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Bootstrap iconen -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Bootstrap JavaScript (defer voor snellere pagina load) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer>
+    </script>
+  <!-- Custom styling -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Navigatie -->
+  <nav class="navbar navbar-expand-md bg-light py-3">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/LogoPortfolio.png" alt="SV System & Networks" width="80" height="80">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-md-0">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown px-2">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Portfolio's
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="projecten.html">Algemeen</a></li>
+              <li><a class="dropdown-item active" aria-current="page" href="project1.html">Project 1</a></li>
+              <li><a class="dropdown-item" href="project2.html">Project 2</a></li>
+              <li><a class="dropdown-item" href="project3.html">Project 3</a></li>
+              <li><a class="dropdown-item" href="project4.html">Project 4</a></li>
+              <li><a class="dropdown-item" href="project5.html">Project 5</a></li>
+              <li><a class="dropdown-item" href="project6.html">Project 6</a></li>
+            </ul>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-md-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Zoeken" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit">Zoeken</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <div class="container my-5">
+    <div class="row">
+      <!-- Project details -->
+      <main class="col-md-9">
+        <!-- Project header -->
+        <header class="mb-5">
+          <h1 class="display-4 mb-3">Enterprise Netwerk Setup</h1>
+          <p class="lead text-muted">Ontwerp en implementatie van een volledig gesegmenteerd bedrijfsnetwerk</p>
+        </header>
+
+        <!-- Project afbeelding 1 -->
+        <section class="mb-5">
+          <img src="assets/images/portfolio1-detail-1.jpg" class="img-fluid rounded shadow"
+            alt="Enterprise Netwerk Topologie">
+        </section>
+
+        <!-- Projectbeschrijving -->
+        <section class="mb-5">
+          <h2 class="h3 mb-3">Projectbeschrijving</h2>
+          <p>Dit project omvatte het complete ontwerp en de implementatie van een enterprise-grade netwerkinfrastructuur
+            voor een middelgroot bedrijf met 150+ werknemers. Het doel was om een veilige, schaalbare en hoogperformante
+            netwerkoplossing te creëren die voldoet aan moderne beveiligingsstandaarden.</p>
+          <p>Het netwerk werd volledig gesegmenteerd met behulp van VLAN's om verschillende afdelingen logisch te
+            scheiden. Er werd gewerkt met een three-tier architectuur: core, distribution en access layer. Redundantie
+            werd ingebouwd op alle kritieke punten om maximale uptime te garanderen.</p>
+        </section>
+
+        <!-- Project afbeelding 2 -->
+        <section class="mb-5">
+          <img src="assets/images/portfolio1-detail-2.jpg" class="img-fluid rounded shadow" alt="Netwerk Configuratie">
+        </section>
+
+        <!-- Gebruikte technologieën -->
+        <section class="mb-5">
+          <h2 class="h3 mb-3">Gebruikte Technologieën</h2>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Cisco Catalyst 9000 Series Switches</li>
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Cisco ASA Firewall</li>
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>VLAN Segmentatie (IEEE 802.1Q)</li>
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>OSPF Routing Protocol</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>HSRP voor Gateway Redundantie</li>
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Port Security & 802.1X Authenticatie</li>
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Spanning Tree Protocol (RSTP)</li>
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>SNMP Monitoring met Nagios</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Uitdagingen & oplossingen -->
+        <section class="mb-5">
+          <h2 class="h3 mb-3">Uitdagingen & Oplossingen</h2>
+          <div class="bg-light p-4 rounded">
+            <h3 class="h5 mb-3"><i class="bi bi-exclamation-triangle text-warning me-2"></i>Uitdaging 1: Zero Downtime
+              Migratie</h3>
+            <p>Het bestaande netwerk moest vervangen worden zonder bedrijfsonderbreking tijdens kantooruren.</p>
+            <p class="mb-4"><strong>Oplossing:</strong> Gefaseerde migratie buiten kantooruren met uitgebreide rollback
+              procedures. Parallel draaien van oud en nieuw netwerk tijdens testfase.</p>
+
+            <h3 class="h5 mb-3"><i class="bi bi-exclamation-triangle text-warning me-2"></i>Uitdaging 2: Complexe VLAN
+              Structuur</h3>
+            <p>Meerdere afdelingen met verschillende beveiligingsniveaus en toegangsrechten moesten geïsoleerd worden.
+            </p>
+            <p><strong>Oplossing:</strong> Implementatie van een hiërarchische VLAN-structuur met Inter-VLAN routing via
+              Layer 3 switches en ACL's voor granulaire toegangscontrole.</p>
+          </div>
+        </section>
+
+        <!-- Project afbeelding 3 -->
+        <section class="mb-5">
+          <img src="assets/images/portfolio1-detail-3.jpg" class="img-fluid rounded shadow" alt="Netwerk Dashboard">
+        </section>
+
+        <!-- Resultaten -->
+        <section class="mb-5">
+          <h2 class="h3 mb-3">Resultaten</h2>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h5 card-title text-success"><i class="bi bi-graph-up-arrow me-2"></i>99.9% Uptime</h3>
+                  <p class="card-text">Netwerkbeschikbaarheid verhoogd van 97% naar 99.9% door redundante
+                    infrastructuur.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h5 card-title text-success"><i class="bi bi-speedometer2 me-2"></i>40% Sneller</h3>
+                  <p class="card-text">Netwerk performance verbeterd met 40% door moderne switching hardware en
+                    optimalisatie.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h5 card-title text-success"><i class="bi bi-shield-check me-2"></i>Verhoogde Beveiliging
+                  </h3>
+                  <p class="card-text">Implementatie van moderne beveiligingsprotocollen en netwerksegmentatie volgens
+                    best practices.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h5 card-title text-success"><i class="bi bi-arrow-left-right me-2"></i>Schaalbaar</h3>
+                  <p class="card-text">Modulaire architectuur maakt eenvoudige uitbreiding mogelijk tot 500+ gebruikers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Terug naar portfolio knop -->
+        <div class="text-center mt-5">
+          <a href="/projecten.html" class="btn btn-outline-secondary">
+            <i class="bi bi-arrow-left me-2"></i>Terug naar Portfolio Overzicht
+          </a>
+        </div>
+      </main>
+
+      <!-- Sidebar -->
+      <aside class="col-md-3 mt-4 mt-md-0">
+        <div class="bg-light p-4 rounded">
+          <h2 class="h5 text-uppercase mb-4">Volg Mij</h2>
+
+          <!-- Social media links -->
+          <ul class="list-unstyled mb-4">
+            <li class="mb-3">
+              <a href="https://www.linkedin.com" target="_blank" class="text-decoration-none d-flex align-items-center">
+                <i class="bi bi-linkedin fs-4 me-3"></i>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="https://twitter.com/" target="_blank" class="text-decoration-none d-flex align-items-center">
+                <i class="bi bi-twitter-x fs-4 me-3"></i>
+                <span>X (Twitter)</span>
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="https://www.instagram.com" target="_blank"
+                class="text-decoration-none d-flex align-items-center">
+                <i class="bi bi-instagram fs-4 me-3"></i>
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="https://www.youtube.com" target="_blank" class="text-decoration-none d-flex align-items-center">
+                <i class="bi bi-youtube fs-4 me-3"></i>
+                <span>YouTube</span>
+              </a>
+            </li>
+          </ul>
+
+          <!-- CV download knop -->
+          <a href="assets/documents/CV_Sam_Vandebroek.pdf" download class="btn btn-primary w-100">
+            <i class="bi bi-download me-2"></i>Download Mijn CV
+          </a>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-4 mt-5">
+    <p class="mb-0 small">&copy; 2024 SV System & Networks - Alle rechten voorbehouden</p>
+  </footer>
+</body>
+
+</html>

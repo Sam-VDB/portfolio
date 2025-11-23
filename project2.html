@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IoT Home Automation - SV System & Networks</title>
+  <!-- CSS reset voor consistentie tussen browsers -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!-- Bootstrap framework -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- Bootstrap iconen -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Bootstrap JavaScript (defer voor snellere pagina load) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous" defer>
+    </script>
+  <!-- Custom styling -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Navigatie -->
+  <nav class="navbar navbar-expand-md bg-light py-3">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/LogoPortfolio.png" alt="SV System & Networks" width="80" height="80">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-md-0">
+          <li class="nav-item px-2">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown px-2">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Portfolio's
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="projecten.html">Algemeen</a></li>
+              <li><a class="dropdown-item" href="project1.html">Project 1</a></li>
+              <li><a class="dropdown-item active" aria-current="page" href="project2.html">Project 2</a></li>
+              <li><a class="dropdown-item" href="project3.html">Project 3</a></li>
+              <li><a class="dropdown-item" href="project4.html">Project 4</a></li>
+              <li><a class="dropdown-item" href="project5.html">Project 5</a></li>
+              <li><a class="dropdown-item" href="project6.html">Project 6</a></li>
+            </ul>
+          </li>
+          <li class="nav-item px-2">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-md-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Zoeken" aria-label="Search">
+          <button class="btn btn-outline-secondary" type="submit">Zoeken</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main content -->
+  <div class="container my-5">
+    <div class="row">
+      <!-- Project details -->
+      <main class="col-md-9">
+        <!-- Project header -->
+        <header class="mb-5">
+          <h1 class="display-4 mb-3">IoT Home Automation</h1>
+          <p class="lead text-muted">Ontwikkeling van een smart home systeem met centrale controle</p>
+        </header>
+
+        <!-- Project afbeelding 1 -->
+        <section class="mb-5">
+          <img src="assets/images/portfolio2-detail-1.jpg" class="img-fluid rounded shadow" alt="IoT Dashboard">
+        </section>
+
+        <!-- Projectbeschrijving -->
+        <section class="mb-5">
+          <h2 class="h3 mb-3">Projectbeschrijving</h2>
+          <p>Dit IoT home automation project had als doel om een volledig geïntegreerd smart home systeem te ontwikkelen
+            dat verschillende aspecten van een moderne woning automatiseert en bestuurt. Het systeem biedt centrale
+            controle over verlichting, klimaat, beveiliging en energieverbruik.</p>
+          <p>De oplossing maakt gebruik van een Raspberry Pi als centrale hub, verschillende sensors en actuatoren, en
+            een zelfontworpen webapplicatie voor monitoring en controle. Het systeem is volledig modulair opgezet,
+            waardoor het eenvoudig uitgebreid kan worden met nieuwe functionaliteiten en apparaten.</p>
+        </section>
+
+        <!-- Project afbeelding 2 -->
+        <section class="mb-5">
+          <img src="assets/images/portfolio2-detail-2.jpg" class="img-fluid rounded shadow"
+            alt="IoT Sensoren en Apparaten">
+        </section>
+
+        <!-- Gebruikte technologieën -->
+        <section class="mb-5">
+          <h2 class="h3 mb-3">Gebruikte Technologieën</h2>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Raspberry Pi 4 als centrale hub</li>
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>MQTT Protocol voor communicatie</li>
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Python voor backend logica</li>
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Node-RED voor automation flows</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul class="list-unstyled">
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>React.js voor frontend dashboard</li>
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>InfluxDB voor data opslag</li>
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Zigbee en WiFi sensoren</li>
+                <li><i class="bi bi-check-circle-fill text-success me-2"></i>Home Assistant integratie</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Uitdagingen & oplossingen -->
+        <section class="mb-5">
+          <h2 class="h3 mb-3">Uitdagingen & Oplossingen</h2>
+          <div class="bg-light p-4 rounded">
+            <h3 class="h5 mb-3"><i class="bi bi-exclamation-triangle text-warning me-2"></i>Uitdaging 1: Betrouwbare
+              Connectiviteit</h3>
+            <p>Verschillende IoT apparaten met verschillende protocollen (WiFi, Zigbee, Z-Wave) moesten stabiel
+              communiceren.</p>
+            <p class="mb-4"><strong>Oplossing:</strong> Implementatie van een mesh netwerk voor Zigbee apparaten en
+              gebruik van MQTT als universeel communicatieprotocol met auto-reconnect functionaliteit.</p>
+
+            <h3 class="h5 mb-3"><i class="bi bi-exclamation-triangle text-warning me-2"></i>Uitdaging 2: Privacy &
+              Beveiliging</h3>
+            <p>Gevoelige data zoals bewegingspatronen en camera feeds moesten veilig opgeslagen en getransporteerd
+              worden.</p>
+            <p><strong>Oplossing:</strong> Lokale data opslag zonder cloud dependency, end-to-end encryptie voor alle
+              communicatie, en implementatie van role-based access control.</p>
+          </div>
+        </section>
+
+        <!-- Project afbeelding 3 -->
+        <section class="mb-5">
+          <img src="assets/images/portfolio2-detail-3.jpg" class="img-fluid rounded shadow" alt="Mobile App Interface">
+        </section>
+
+        <!-- Resultaten -->
+        <section class="mb-5">
+          <h2 class="h3 mb-3">Resultaten</h2>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h5 card-title text-success"><i class="bi bi-lightning-charge me-2"></i>30% Energiebesparing
+                  </h3>
+                  <p class="card-text">Automatische controle van verlichting en verwarming resulteerde in significant
+                    lager energieverbruik.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h5 card-title text-success"><i class="bi bi-clock-history me-2"></i>Real-time Monitoring
+                  </h3>
+                  <p class="card-text">Live dashboard toont alle sensor data en apparaat statussen met historische
+                    grafieken.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h5 card-title text-success"><i class="bi bi-phone me-2"></i>Remote Access</h3>
+                  <p class="card-text">Veilige toegang vanaf mobiele app voor controle van overal ter wereld.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card border-0 shadow-sm h-100">
+                <div class="card-body">
+                  <h3 class="h5 card-title text-success"><i class="bi bi-puzzle me-2"></i>Modulair Systeem</h3>
+                  <p class="card-text">Eenvoudig uitbreidbaar met nieuwe sensoren en automatiseringen zonder code
+                    aanpassingen.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Terug naar portfolio knop -->
+        <div class="text-center mt-5">
+          <a href="/projecten.html" class="btn btn-outline-secondary">
+            <i class="bi bi-arrow-left me-2"></i>Terug naar Portfolio Overzicht
+          </a>
+        </div>
+      </main>
+
+      <!-- Sidebar -->
+      <aside class="col-md-3 mt-4 mt-md-0">
+        <div class="bg-light p-4 rounded">
+          <h2 class="h5 text-uppercase mb-4">Volg Mij</h2>
+
+          <!-- Social media links -->
+          <ul class="list-unstyled mb-4">
+            <li class="mb-3">
+              <a href="https://www.linkedin.com" target="_blank" class="text-decoration-none d-flex align-items-center">
+                <i class="bi bi-linkedin fs-4 me-3"></i>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="https://twitter.com/" target="_blank" class="text-decoration-none d-flex align-items-center">
+                <i class="bi bi-twitter-x fs-4 me-3"></i>
+                <span>X (Twitter)</span>
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="https://www.instagram.com" target="_blank"
+                class="text-decoration-none d-flex align-items-center">
+                <i class="bi bi-instagram fs-4 me-3"></i>
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li class="mb-3">
+              <a href="https://www.youtube.com" target="_blank" class="text-decoration-none d-flex align-items-center">
+                <i class="bi bi-youtube fs-4 me-3"></i>
+                <span>YouTube</span>
+              </a>
+            </li>
+          </ul>
+
+          <!-- CV download knop -->
+          <a href="assets/documents/CV_Sam_Vandebroek.pdf" download class="btn btn-primary w-100">
+            <i class="bi bi-download me-2"></i>Download Mijn CV
+          </a>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-light text-center py-4 mt-5">
+    <p class="mb-0 small">&copy; 2024 SV System & Networks - Alle rechten voorbehouden</p>
+  </footer>
+</body>
+
+</html>
